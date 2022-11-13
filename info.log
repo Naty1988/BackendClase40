@@ -1,0 +1,90 @@
+[2022-11-04T08:09:07.516] [ERROR] todos - error en conexión de base de datos MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+    at NativeConnection.Connection.openUri (C:\Users\Jonatan\Desktop\3EntregaProyecto Final\node_modules\mongoose\lib\connection.js:824:32)
+    at C:\Users\Jonatan\Desktop\3EntregaProyecto Final\node_modules\mongoose\lib\index.js:417:10
+    at promiseOrCallback (C:\Users\Jonatan\Desktop\3EntregaProyecto Final\node_modules\mongoose\lib\helpers\promiseOrCallback.js:11:14)
+    at Mongoose._promiseOrCallback (C:\Users\Jonatan\Desktop\3EntregaProyecto Final\node_modules\mongoose\lib\index.js:1270:10)
+    at Mongoose.connect (C:\Users\Jonatan\Desktop\3EntregaProyecto Final\node_modules\mongoose\lib\index.js:416:20)
+    at Object.conectarDB (C:\Users\Jonatan\Desktop\3EntregaProyecto Final\controllersdb.js:6:14)
+    at Object.<anonymous> (C:\Users\Jonatan\Desktop\3EntregaProyecto Final\server.js:428:15)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32) {
+  reason: TopologyDescription {
+    type: 'ReplicaSetNoPrimary',
+    servers: Map(3) {
+      'ac-ee4lkwh-shard-00-00.wdcw0au.mongodb.net:27017' => [ServerDescription],
+      'ac-ee4lkwh-shard-00-01.wdcw0au.mongodb.net:27017' => [ServerDescription],
+      'ac-ee4lkwh-shard-00-02.wdcw0au.mongodb.net:27017' => [ServerDescription]
+    },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: 'atlas-qk55rs-shard-0',
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined
+}
+[2022-11-04T08:17:58.393] [ERROR] todos - error en conexión de base de datos MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+    at NativeConnection.Connection.openUri (C:\Users\Jonatan\Desktop\3EntregaProyecto Final\node_modules\mongoose\lib\connection.js:824:32)
+    at C:\Users\Jonatan\Desktop\3EntregaProyecto Final\node_modules\mongoose\lib\index.js:417:10
+    at promiseOrCallback (C:\Users\Jonatan\Desktop\3EntregaProyecto Final\node_modules\mongoose\lib\helpers\promiseOrCallback.js:11:14)
+    at Mongoose._promiseOrCallback (C:\Users\Jonatan\Desktop\3EntregaProyecto Final\node_modules\mongoose\lib\index.js:1270:10)
+    at Mongoose.connect (C:\Users\Jonatan\Desktop\3EntregaProyecto Final\node_modules\mongoose\lib\index.js:416:20)
+    at Object.conectarDB (C:\Users\Jonatan\Desktop\3EntregaProyecto Final\controllersdb.js:6:14)
+    at Object.<anonymous> (C:\Users\Jonatan\Desktop\3EntregaProyecto Final\server.js:428:15)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32) {
+  reason: TopologyDescription {
+    type: 'ReplicaSetNoPrimary',
+    servers: Map(3) {
+      'ac-ee4lkwh-shard-00-00.wdcw0au.mongodb.net:27017' => [ServerDescription],
+      'ac-ee4lkwh-shard-00-01.wdcw0au.mongodb.net:27017' => [ServerDescription],
+      'ac-ee4lkwh-shard-00-02.wdcw0au.mongodb.net:27017' => [ServerDescription]
+    },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: 'atlas-qk55rs-shard-0',
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined
+}
+[2022-11-09T12:24:02.959] [ERROR] todos - error en conexión de base de datos MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+    at NativeConnection.Connection.openUri (C:\Users\Jonatan\Desktop\3EntregaProyecto Final\node_modules\mongoose\lib\connection.js:824:32)
+    at C:\Users\Jonatan\Desktop\3EntregaProyecto Final\node_modules\mongoose\lib\index.js:417:10
+    at promiseOrCallback (C:\Users\Jonatan\Desktop\3EntregaProyecto Final\node_modules\mongoose\lib\helpers\promiseOrCallback.js:11:14)
+    at Mongoose._promiseOrCallback (C:\Users\Jonatan\Desktop\3EntregaProyecto Final\node_modules\mongoose\lib\index.js:1270:10)
+    at Mongoose.connect (C:\Users\Jonatan\Desktop\3EntregaProyecto Final\node_modules\mongoose\lib\index.js:416:20)
+    at Object.conectarDB (C:\Users\Jonatan\Desktop\3EntregaProyecto Final\controllersdb.js:6:14)
+    at Object.<anonymous> (C:\Users\Jonatan\Desktop\3EntregaProyecto Final\server.js:584:15)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32) {
+  reason: TopologyDescription {
+    type: 'ReplicaSetNoPrimary',
+    servers: Map(3) {
+      'ac-ee4lkwh-shard-00-02.wdcw0au.mongodb.net:27017' => [ServerDescription],
+      'ac-ee4lkwh-shard-00-00.wdcw0au.mongodb.net:27017' => [ServerDescription],
+      'ac-ee4lkwh-shard-00-01.wdcw0au.mongodb.net:27017' => [ServerDescription]
+    },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: 'atlas-qk55rs-shard-0',
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined
+}
